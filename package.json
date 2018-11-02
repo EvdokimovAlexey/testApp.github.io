@@ -29,6 +29,7 @@
     "@vkontakte/vkui-connect": "^1.1.2",
     "core-js": "^2.5.7",
     "gh-pages": "^2.0.1",
+    "mysql": "^2.16.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
