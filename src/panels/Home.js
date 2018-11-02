@@ -23,7 +23,7 @@ const Home = props => (
       </Group>
 			<Div>
 				<Button size="xl" level="2" onClick={props.go} data-to="persik">
-					Show me the Persik, please
+					herokuherokuheroku
 				</Button>
 			</Div>
 		</Group>
