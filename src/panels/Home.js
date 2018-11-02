@@ -15,7 +15,7 @@ const Home = props => (
 			</ListItem>
 		</Group>}
 
-		<Group title="Navigation Example from GH-pages">
+		<Group title="Navigation Example from Heroku">
 			<Group>
             <CellButton onClick={props.go} data-to="testpanel">
               Go to test panel 1
