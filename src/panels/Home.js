@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader } from '@vkontakte/vkui';
+import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader, CellButton } from '@vkontakte/vkui';
 
 const Home = props => (
 	<Panel id={props.id}>
@@ -16,6 +16,11 @@ const Home = props => (
 		</Group>}
 
 		<Group title="Navigation Example">
+			<Group>
+            <CellButton onClick={props.go} data-to="testpanel">
+              Go to test panel 1
+            </CellButton>
+      </Group>
 			<Div>
 				<Button size="xl" level="2" onClick={props.go} data-to="persik">
 					Show me the Persik, please
