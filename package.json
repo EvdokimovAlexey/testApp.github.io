@@ -2,13 +2,19 @@
   "name": "testApp",
   "version": "1.1.0",
   "description": "",
-  "description": "https://EvdokimovAlexey.github.io/testApp.github.io/",
+  "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "11.0.0"
+  },
+  "homepage": "https://EvdokimovAlexey.github.io/testApp.github.io/",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
