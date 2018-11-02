@@ -2,10 +2,13 @@
   "name": "testApp",
   "version": "1.0.0",
   "description": "",
+  "description": "https://EvdokimovAlexey.github.io/testApp.github.io/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +23,7 @@
     "@vkontakte/vkui": "^2.13.0",
     "@vkontakte/vkui-connect": "^1.1.2",
     "core-js": "^2.5.7",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0"
