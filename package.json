@@ -5,7 +5,7 @@
   "description": "https://EvdokimovAlexey.github.io/testApp.github.io/",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=10888 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
