@@ -1,6 +1,6 @@
 {
   "name": "testApp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "description": "https://EvdokimovAlexey.github.io/testApp.github.io/",
   "main": "index.js",
@@ -14,7 +14,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "^5.2.0",
     "react-hot-loader": "^4.3.4",
     "react-scripts": "^1.1.4"
   },
